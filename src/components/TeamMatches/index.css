@@ -1,0 +1,151 @@
+/* Write your CSS here */
+.rcb {
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+  padding: 25px 25px 15px 15px;
+}
+.team-logo {
+  width: 100%;
+}
+* {
+  font-family: Bree serif;
+}
+.latest-match-container {
+  background-color: #0f172a;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.venue-result {
+  color: white;
+  font-size: 13px;
+  font-weight: 100;
+}
+.date {
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+}
+.opp-team-name {
+  color: white;
+  font-size: 25px;
+  font-weight: 100;
+}
+.opp-team-logo {
+  width: 50%;
+}
+.side-headings {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+.results {
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+}
+.first-container {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.result-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.match-card-container {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.horizontal-line {
+  display: none;
+}
+.latest-matches-text {
+  color: white;
+}
+.latest-matches-text {
+  margin-bottom: 0px;
+}
+.kkr {
+  background-color: #5755a7;
+  padding: 25px 25px 15px 15px;
+}
+.csk {
+  background-color: #f7db00;
+  padding: 25px 25px 15px 15px;
+}
+
+.mi {
+  background-color: #13418b;
+  padding: 25px 25px 15px 15px;
+}
+
+.kxp {
+  background-color: #d91c1f;
+  padding: 25px 25px 15px 15px;
+}
+
+.sh {
+  background-color: #f26d22;
+  padding: 25px 25px 15px 15px;
+}
+
+.dc {
+  background-color: #5755a7;
+  padding: 25px 25px 15px 15px;
+}
+.loader-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .latest-match-container {
+    flex-direction: column;
+  }
+  .first-container {
+    width: 100%;
+  }
+  .result-container {
+    width: 100%;
+    align-items: flex-start;
+  }
+  .horizontal-line {
+    display: block;
+    width: 100%;
+  }
+  .venue-result {
+    color: white;
+    font-size: 10px;
+    font-weight: 100;
+  }
+  .date {
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+  }
+  .opp-team-name {
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .side-headings {
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+  }
+}

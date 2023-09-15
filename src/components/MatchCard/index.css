@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+  width: 49%;
+  background-color: #0f172a;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+.match-status {
+  color: white;
+  font-family: Bree serif;
+}
+.match-img {
+  width: 25%;
+}
+
+.won {
+  color: #18ed66;
+}
+.lost {
+  color: #e31a1a;
+}
